@@ -1,7 +1,8 @@
 # Gear Worshipper
 
 A compact LibGDX desktop game where **Hong Lu** duels “gear‑worshipper” robots with bullets, a three‑hit knife combo, and an invulnerable dash.  
-The code base (≈ 800 LOC) is self‑contained, Gradle‑driven, and Eclipse‑friendly.
+The code is self‑contained with Gradle‑driven.
+All game resource is from game "Limbus Company"
 
 ---
 
@@ -68,9 +69,9 @@ GAME OVER Total Kills: N
 | **Single‑Threaded Game Loop Discipline** | All rendering, input, and logic stay on the LWJGL render thread; Gradle’s background compiler runs separately. Understanding thread confinement avoids `SpriteBatch` errors—mirrors thread‑safety challenges in multi‑threaded servers. |
 | **Deterministic Resource Management** | Like dependency‑injection frameworks (e.g., Spring), textures/sounds are created once, “injected” via the constructor, and disposed predictably—similar to managing DB connections or HTTP pools in enterprise apps. |
 
-*(Other advanced aspects: event‑driven input, real‑time collision pruning, batched GPU draws.)*
+
 
 ---
 
 
-Pull requests welcome—happy gear‑slashing!
+Found out there are too many people doing Mario Games so I changed my project but it still a game.
