@@ -3,6 +3,7 @@
 A compact LibGDX desktop game where **Hong Lu** duels “gear‑worshipper” robots with bullets, a three‑hit knife combo, and an invulnerable dash.  
 The code is self‑contained with Gradle‑driven.
 All game resource is from game "Limbus Company"
+<img src="./assets/2025-05-08 19-01-10.gif"/>
 
 ---
 
