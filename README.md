@@ -22,7 +22,7 @@ All game resource is from game "Limbus Company"
 > ./gradlew lwjgl3:run          # hot‑reload run target
 > ./gradlew lwjgl3:dist         # release jar in lwjgl3/build/libs
 > ```
-> In Eclipse: right‑click project → **Run As ► Gradle Task ► lwjgl3:run**.  
+> In Eclipse: Unzip the file → import as Existing Gradle Project → the right‑click project → **Run As ► Gradle Task ► lwjgl3:run**.  
 > The LWJGL window opens with music looping at 20% volume.
 
 ---
